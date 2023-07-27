@@ -1,0 +1,137 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+  border-radius: 20px;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #2a8b8b;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  padding: 5px;
+}
+
+.password-Strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+/* ==== MEDIA QUERY FOR MOBILE SCREEN ==== */
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .charlength {
+    font-size: 16px;
+  }
+
+  .checkboxes {
+    font-size: 14px;
+  }
+
+  .generateBtn {
+    font-size: 16px;
+  }
+
+  .password-Strength {
+    font-size: 16px;
+  }
+}
+
+/* ===== MEDIA QUERY FOR LAP ===== */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .header {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  .charlength {
+    font-size: 18px;
+  }
+
+  .checkboxes {
+    font-size: 16px;
+  }
+
+  .generateBtn {
+    font-size: 18px;
+  }
+
+  .password-Strength {
+    font-size: 18px;
+  }
+}
