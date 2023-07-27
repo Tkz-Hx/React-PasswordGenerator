@@ -1,6 +1,6 @@
 # React Password Generator
 
-![3](https://github.com/Tkz-Hx/React-PasswordGenerator/assets/134191208/4ce89a66-0b79-4ac4-b4a5-5622a79d52b9)
+
 
 ## Description
 
